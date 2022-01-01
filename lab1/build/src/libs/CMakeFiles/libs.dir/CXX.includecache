@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/src/includes/Book.hpp
+iostream
+-
+vector
+-
+string
+-
+
+/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/src/libs/Book.cpp
+../includes/Book.hpp
+/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/src/includes/Book.hpp
+
