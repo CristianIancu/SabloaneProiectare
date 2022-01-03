@@ -4,14 +4,16 @@
 #include<iostream>
 #include<string>
 
-class Image
+#include"Element.hpp"
+
+class Image: public Element
 {
 public:
     Image(const std::string& imageName):
         imageName_(imageName) {}
     
     void print(){
-        std::cout<<imageName_<<std::endl;
+        std::cout<<"Image with name: "<<imageName_<<std::endl;
     }
 private:
     std::string imageName_;

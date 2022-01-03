@@ -4,14 +4,16 @@
 #include<iostream>
 #include<string>
 
-class Table
+#include"Element.hpp"
+
+class Table: public Element
 {
 public:
     Table(const std::string& title):
         title_(title) {}
     
     void print(){
-        std::cout<<title_<<std::endl;
+        std::cout<<"Table with title: "<<title_<<std::endl;
     }
 private:
     std::string title_;
