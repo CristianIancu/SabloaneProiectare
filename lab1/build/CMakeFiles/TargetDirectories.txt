@@ -1,8 +1,0 @@
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/CMakeFiles/lab1.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/src/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/src/CMakeFiles/edit_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/src/libs/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/src/libs/CMakeFiles/edit_cache.dir
-/mnt/c/Users/criancu/Documents/GitHub/SabloaneProiectare/lab1/build/src/libs/CMakeFiles/libs.dir
