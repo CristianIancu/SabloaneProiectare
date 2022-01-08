@@ -28,8 +28,9 @@ public:
             a.print();
         std::cout<<std::endl;
 
-        for(Element* e: elements_)
-            e->print();
+        Section::print();
+
+        
     }
 
 private:

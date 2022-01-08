@@ -12,7 +12,7 @@ public:
         title_(title) {}
     
     void add(Element* element){
-        elements_.push_back(element);
+        elements_.emplace_back(element);
     }
     void remove(Element* element){
 
@@ -23,7 +23,7 @@ public:
 
     virtual void print(){
         std::cout<<title_<<std::endl;
-
+        
         for(Element* e: elements_)
             e->print();
     }
