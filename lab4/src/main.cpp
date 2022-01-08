@@ -3,14 +3,15 @@
 
 #include "includes/Book.hpp"
 #include "includes/Image.hpp"
+#include "includes/ImageProxy.hpp"
 #include "includes/Table.hpp"
 #include "includes/Paragraph.hpp"
 
 int main(){
     auto start = std::chrono::system_clock::now();
-    Image img1 = Image("Pamela Andrerson");
-    Image img2 = Image("Kim Kardashian");
-    Image img3 = Image("Kirby Griffin");
+    ImageProxy img1 = ImageProxy("Pamela Andrerson");
+    ImageProxy img2 = ImageProxy("Kim Kardashian");
+    ImageProxy img3 = ImageProxy("Kirby Griffin");
 
     Section playboyS1 = Section("Front Cover");
     playboyS1.add(&img1);

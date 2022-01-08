@@ -24,10 +24,13 @@ public:
     virtual void print(){
         std::cout<<title_<<std::endl;
         
-        for(Element* e: elements_)
-            e->print();
-    }
+        for(Element* e: elements_){
 
+            e->print();
+        }
+    }
+protected:
+    std::vector<Element*> elements_;
 private:
     std::string title_;
 };

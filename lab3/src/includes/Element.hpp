@@ -9,7 +9,5 @@ public:
     virtual void add(Element* emelent){}
     virtual void remove(Element* element){}
     virtual const Element* get(int index){ return nullptr; }
-protected:
-    std::vector<Element*> elements_;
 };
 #endif

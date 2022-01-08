@@ -7,21 +7,24 @@
 #include <unistd.h>
 
 #include"Element.hpp"
-
-class Image: public Element
+#include"Picture.hpp"
+class Image: public Element, public Picture
 {
 public:
-    Image(const std::string& imageName):
-        imageName_(imageName) {
+    Image(const std::string& url):
+        url_(url) {
             sleep(5);
 
         }
-    
+    std::string content() {
+        return content_;
+    }
     void print() override{
-        std::cout<<"Image with name: "<<imageName_<<std::endl;
+        std::cout<<"Image with name: "<<url_<<std::endl;
     }
 private:
-    std::string imageName_;
+    std::string url_;
+    std::string content_;
 };
 
 
