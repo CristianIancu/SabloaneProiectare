@@ -12,3 +12,10 @@ https://github.com/CristianIancu/SabloaneProiectare/tree/eca840ee509f98520f23916
 # Feedback lab4
 
 - nothing
+
+# Feedback lab5:
+changed to c++ and implemented the requested labs. All good.
+
+Due to delays:
+
+# Proposed grade: 7
